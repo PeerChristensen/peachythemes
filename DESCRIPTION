@@ -1,0 +1,10 @@
+Package: peachythemes
+Type: Package
+Title: A Collection of Various ggplot2 Themes
+Version: 0.1.0
+Author: Peer Christensen
+Maintainer: Peer Christensen <hr.pchristensen@gmail.com>
+Description: Just peachy!
+License: -
+Encoding: UTF-8
+LazyData: true
