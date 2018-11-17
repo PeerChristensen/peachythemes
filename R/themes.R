@@ -1,15 +1,3 @@
-# Hello, world!
-
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
-
 # LIST OF THEMES
 
 # Blueprint
@@ -19,8 +7,13 @@
 # Peachy
 # Shadow
 # Laser tag
+# Tron
+# Dark
 
-library(jtools)
+#' @export
+
+#' @import ggplot2
+#' @import jtools
 
 blueprint_theme <- function() {
   theme_bw() +
@@ -176,3 +169,4 @@ dark_theme <- function() {
     theme(legend.title = element_blank()) +
     theme(legend.position = c(0.9,0.08))
 }
+
